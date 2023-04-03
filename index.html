@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Корзина</h1>
+      <div class="box1">
+        <img class="clothes" src="./assets/images/dress.jpg" />
+        <div class="text">
+          <h3>Легкое платье</h3>
+          <p>Цвет: мультиколор</p>
+          <p>Размер: S</p>
+          <p>Количество: 1</p>
+        </div>
+        <div id="price1">4999 руб.</div>
+      </div>
+      <div class="box2">
+        <img class="clothes" src="./assets/images/combinezon.jpg" />
+        <div class="text">
+          <h3>Комбинезон</h3>
+          <p>Цвет: темно-синий</p>
+          <p>Размер: M</p>
+          <p>Количество: 1</p>
+        </div>
+        <div id="price2">5450 руб.</div>
+      </div>
+      <div class="box3">
+        <img class="clothes" src="./assets/images/bluedress.jpg" />
+        <div class="text">
+          <h3>Синее платье</h3>
+          <p>Цвет: синий</p>
+          <p>Размер: S</p>
+          <p>Количество: 1</p>
+        </div>
+        <div id="price3">3360 руб.</div>
+      </div>
+      <div class="box4">
+        <img class="clothes" src="./assets/images/jackets.jpg" />
+        <div class="text">
+          <h3>Жакет</h3>
+          <p>Цвет: красный</p>
+          <p>Размер: М</p>
+          <p>Количество: 1</p>
+        </div>
+        <div id="price4">4450 руб.</div>
+      </div>
+      <div class="accept">
+        <button id="discount" onclick="setDisable()">
+          Использовать купон на 20%
+        </button>
+        <div class="check">
+          <p><b>ИТОГО:</b><span id="total"></span></p>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/styles/index.js"></script>
+  </body>
+</html>

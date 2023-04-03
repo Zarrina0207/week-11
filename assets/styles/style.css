@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px 15px 0 15px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.clothes {
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.text {
+    font-size: 10pt;
+}
+
+#price1 {
+    font-size: larger;
+    color: blue;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#price2 {
+    font-size: larger;
+    color: blue;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+#price3 {
+    font-size: larger;
+    color: blue;
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#price4 {
+    font-size: larger;
+    color: blue;
+}
+
+.accept {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 15px;
+}
+
+#total {
+    font-size: larger;
+    color: blue;
+}
